@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/app_name"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="italic"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textSize="15sp"
+android:textColor="#FF5722"   ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+       android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/name"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/email"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paassword"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/passsword1"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/phone"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Register Here"
+        android:background="@color/colorPrimary"
+        android:textSize="15sp"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alreadylogin"
+        android:text="Already Register..?Login"
+        android:textColor="#009688"
+        android:layout_marginTop="10dp"></TextView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:id="@+id/progressbar"
+        android:visibility="invisible"></ProgressBar>
+
+</LinearLayout>

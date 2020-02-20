@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043616255174",
+    "firebase_url": "https://authenticaterapp-40d0c.firebaseio.com",
+    "project_id": "authenticaterapp-40d0c",
+    "storage_bucket": "authenticaterapp-40d0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043616255174:android:34ede79aaa31e508089bc7",
+        "android_client_info": {
+          "package_name": "com.gauri.authenticaterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043616255174-2a0127okjjuv220v1ab6q7bds0q1m17o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gauri.authenticaterapp",
+            "certificate_hash": "1b1853fae43da876aec1b525951d9548da4a6047"
+          }
+        },
+        {
+          "client_id": "1043616255174-cpqi6ddk6nfg10thpg8oplkgqfp7epph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN5A4iXEqBU39zMNscQ_VOOeapE6AnLtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043616255174-cpqi6ddk6nfg10thpg8oplkgqfp7epph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
